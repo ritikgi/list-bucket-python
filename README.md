@@ -14,7 +14,7 @@ This project is a Flask-based application that lists the contents of an S3 bucke
 1. Clone the repository.
 2. Ensure your AWS credentials are set up for Terraform.
 3. Run `terraform init` and `terraform apply` to create the EC2 instance.
-4. Access the API via `http://<EC2_PUBLIC_IP>:5000`.
+4. Access the API via `http://<EC2_PUBLIC_IP>:5000/list-bucket-content`.
 
 ## Screenshots
 
